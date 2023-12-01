@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>dzik w lesie warke niesie</title>
+        <style>
+    body{
+    background-color:green;
+    text-align: center;
+    }
+    .srodek {
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    }
+    .srodek2{
+        text-align: center;
+        font-size:100px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="gora">
+         DZIK W DRESIE WARKE NIESIE
+        </div>
+    <div class="srodek">
+      <button id="click"><img src="https://static.wikia.nocookie.net/the-futrionia/images/6/6e/Dzika_%C5%9Bwinia.png/revision/latest?cb=20200110224456&path-prefix=pl"/></button>
+    </div>
+    <div class="srodek2">
+    Kliknij aby ubić dzika:
+    </div>
+    <div class="srodek2">Liczba ciosów:<span id="counter"></span></div>
+      <script>
+    var counter = 0;
+    document.getElementById("click").addEventListener("click", function() {
+      counter++;
+      document.getElementById("counter").innerHTML = counter;
+    });
+  </script>
+    </body>
+</html>
