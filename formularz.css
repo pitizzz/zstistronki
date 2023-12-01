@@ -1,0 +1,35 @@
+.lewy{
+  float:left;
+  background-color:#555;
+}
+.prawy{
+  float:right;
+  background-color:#555;
+}
+.lewy, .prawy{
+  color:#fff;
+  border:3px solid black;
+  border-radius:5px;
+  padding:5px;
+  width:45%;
+}
+.lewy input, .prawy input{
+  margin:1%;
+  width:97%;
+}
+.button{
+  background-color:black;
+}
+.guzik, .lewy input, .prawy input{
+  padding:5px;
+  border:3px solid black;
+  border-radius:5px;
+  color:#FFC0CB;
+}
+.lewy input:hover, .prawy input:hover, .lewy input:active, .prawy input:active, .lewy:focus, .przwy:focus {
+  background-color:red;
+  color:#fff;
+}
+.wypluwacz{
+  color:#fa0;
+}
