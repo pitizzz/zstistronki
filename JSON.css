@@ -1,0 +1,27 @@
+body {
+  background-color: grey;
+}
+th {
+  background-color: green;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+}
+h2 {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+wypluwacz {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
